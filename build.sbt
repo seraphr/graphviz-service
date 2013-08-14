@@ -14,6 +14,7 @@ libraryDependencies ++=  Seq(
 				"jp.seraphr" %% "graphviz-scala" % "0.0.1",
 				"org.scalatra" %% "scalatra" % "2.2.0",
 				"org.eclipse.jetty" % "jetty-webapp" % "8.1.8.v20121106" % "container",
+				"org.eclipse.jetty.orbit" % "javax.servlet" % "3.0.0.v201112011016" % "container;provided",
 				"org.scalatest" %% "scalatest" % "1.9.1" % "test",
 				"org.scalacheck" %% "scalacheck" % "1.10.0" % "test"
 			)
